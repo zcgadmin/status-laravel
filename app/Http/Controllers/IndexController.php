@@ -13,7 +13,9 @@ class IndexController extends Controller
      */
     public function index()
     {
-        echo 'this is home page';
+        echo '测试合拼分支';
+        echo 'this is home page 22222222222222222';
+        echo 'this is add branch ！！！！！！！！';
     }
 
     /**
@@ -24,6 +26,10 @@ class IndexController extends Controller
     public function create()
     {
         //
+        echo '啦啦啦';
+        echo '啦啦啦';
+        echo '啦啦啦';
+        echo '啦啦啦';
     }
 
     /**
