@@ -15,7 +15,9 @@ class IndexController extends Controller
     {
         echo '测试合拼分支';
         echo 'this is home page 22222222222222222';
-        echo 'this is add branch ！！！！！！！！';
+        echo 'sdfsdf';
+        echo 'sadf';
+        echo 'diff  ';
     }
 
     /**
@@ -25,17 +27,21 @@ class IndexController extends Controller
      */
     public function create()
     {
-        //
         echo '啦啦啦';
+        echo 'sdfasd';
+        echo 'asdf';
+
         echo '啦啦啦';
+
         echo '啦啦啦';
-        echo '啦啦啦';
+        echo 'diff  ';
+        echo 'e';
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -46,7 +52,7 @@ class IndexController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -57,7 +63,7 @@ class IndexController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -68,8 +74,8 @@ class IndexController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param \Illuminate\Http\Request $request
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -80,7 +86,7 @@ class IndexController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
